@@ -93,4 +93,7 @@ const showLink = (res)=>{
     progressContainer.style.display = "none";
     sharingContainer.style.display= "block";
     fileURLInput.value = url;
+
 }
+
+console.log("window");

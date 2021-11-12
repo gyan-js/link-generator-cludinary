@@ -103,6 +103,8 @@ body, .drop-zone, .upload-container{
 }
 
 .browseBtn{
+    text-transform: capitalize;
+    text-decoration: underline;
     color: #2196f3;
     cursor: pointer;
 }
@@ -186,6 +188,25 @@ p.expire{
     cursor: pointer;
 }
 
+.reload{
+    display: flex;
+   
+}
+
+.reload button,
+.reload h3{
+    display: inline-block;
+vertical-align: middle;
+margin: 10px 0;
+}
+
+.reload button{
+    background: #c8f5e4;
+    outline: none;
+    border: none;
+}
+
+
 
 
 @media screen and (max-width : 900px){
@@ -193,3 +214,9 @@ p.expire{
         --container-width : 320px;
     }
 }
+
+
+
+
+
+
